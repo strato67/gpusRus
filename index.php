@@ -1,8 +1,25 @@
+<?php
+
+include 'header.php';
+
+?>
+
 <html>
-<head></head>
+<head>
+
+
+
+</head>
 
 <body>
-Hello world
+
+<div class="product-slide">
+
+<img src="https://static.techspot.com/images/products/2016/graphics-cards/org/2018-06-08-product-14.jpg">
+
+
+
+</div>
 
 
 
@@ -16,12 +33,11 @@ Hello world
 
 </html>
 
+
 <?php
 
-    echo "Hello nerd";
-
+    echo "Hello";
 
 
 
 ?>
-
