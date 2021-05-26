@@ -6,7 +6,8 @@ include 'header.php';
 
 <html>
 <head>
-<link rel="stylesheet" href="styles/indexStyle.css">
+
+<link rel="stylesheet" href="styles/mainStyle.css">
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
@@ -18,21 +19,21 @@ include 'header.php';
 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100 h-200" src="https://images.anandtech.com/doci/13796/RTX2060_Car_678x452.jpg" alt="First slide">
+      <img class="d-block w-100 h-150" src="https://images.anandtech.com/doci/13796/RTX2060_Car_678x452.jpg" alt="First slide">
       <div class="carousel-caption d-none d-md-block">
     <h5>NVIDIA RTX 2060</h5>
     <p>$999</p>
   </div>
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100 h-200" src="https://assets1.ignimgs.com/2020/09/24/rtx-3090-blogroll-1600909176729.jpg" alt="Second slide">
+      <img class="d-block w-100 h-150" src="https://assets1.ignimgs.com/2020/09/24/rtx-3090-blogroll-1600909176729.jpg" alt="Second slide">
       <div class="carousel-caption d-none d-md-block">
     <h5>NVIDIA RTX 3090</h5>
     <p>$1999</p>
   </div>
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100 h-200" src="https://www.extremetech.com/wp-content/uploads/2020/09/Radeon-6000-Feature-640x353.jpg" alt="Third slide">
+      <img class="d-block w-100 h-150" src="https://www.extremetech.com/wp-content/uploads/2020/09/Radeon-6000-Feature-640x353.jpg" alt="Third slide">
       <div class="carousel-caption d-none d-md-block">
     <h5>AMD Radeon 6900 XT</h5>
     <p>$999</p>
@@ -49,13 +50,17 @@ include 'header.php';
   </a>
 </div>
 
-
+</div>
 
 </div>
 
+<div class="video-container">
 
+
+<iframe class = "videoContent" width="560" height="315" src="https://www.youtube-nocookie.com/embed/yE9n_llJOVQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 </div>
+
 
 
 </body>
@@ -63,11 +68,3 @@ include 'header.php';
 
 </html>
 
-
-<?php
-
-
-
-    include 'footer.php';
-
-?>
