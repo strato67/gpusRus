@@ -24,7 +24,7 @@
         <a class="nav-link" href="#">Pricing</a>
       </li>
     </ul>
-    <button class="btn btn-outline-success my-2 my-sm-0" type="button">Login / Sign Up</button>
+    <button class="btn btn-outline-primary my-2 my-sm-0" type="button">Login / Sign Up</button>
   </div>
 </nav>
 
