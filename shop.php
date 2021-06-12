@@ -7,15 +7,15 @@ include 'header.php';
 <html>
 <head>
 <link rel="stylesheet" href="styles/shopStyles.css">
-
+<script src="scripts/shopfilter.js"></script>
 </head>
 
 <body>
 <div class = "button-container">
 
-    <button class="btn btn-outline-primary">All Products</button>
-    <button class="btn btn-outline-primary">AMD</button>
-    <button class="btn btn-outline-primary">NVIDIA</button>
+    <button class="btn active btn-outline-primary" onclick="shopFilter('all')">All Products</button>
+    <button class="btn btn-outline-primary" onclick="shopFilter('AMD')">AMD</button>
+    <button class="btn btn-outline-primary" onclick="shopFilter('NVIDIA')">NVIDIA</button>
 
 </div>
 
