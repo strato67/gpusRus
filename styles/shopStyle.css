@@ -1,0 +1,30 @@
+.filter{
+    float: left;
+}
+body{
+    background-color: white;
+}
+.button-container{
+    
+    display: inline-flex;
+    padding: 1% 0 1% 0%;
+    gap: 5%;
+    
+    
+}
+.show{
+    display: block;
+}
+.shop-container{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, max-content);
+    
+    
+}
+.filter{
+    width: max-content;
+    margin: 5%;
+    max-width: 100%;
+    
+}
