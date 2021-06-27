@@ -2,18 +2,10 @@ const className = document.getElementsByClassName("shop-container");
 function shopFilter(selection){
     
     if(selection==='all'){
-        //className[0].style.display = "block";
-        //className[0].getElementsByClassName("amd")[1].style.display = "block";
         visible();
-        
-        
+                
     }else{
-        //className[0].style.display = "none";
-        //className[0].getElementsByClassName("amd")[0].style.display = "none";
-        
         cardSelect(selection);
-        
-        //visible(selection);
     }
 }
 function visible(){
@@ -21,10 +13,12 @@ function visible(){
     var amdArray =  className[0].getElementsByClassName("amd");
     var nArray =  className[0].getElementsByClassName("nvidia");
     for(let i = 0;i<amdArray.length;i++){
-        amdArray[i].style.display="block";
+        amdArray[i].style.display="grid";
+               
     }
     for(let i = 0;i<nArray.length;i++){
-        nArray[i].style.display="block";
+        nArray[i].style.display="grid";
+        
     }
     
 }
@@ -32,17 +26,22 @@ function visible(){
 function cardSelect(card){
     var amdArray =  className[0].getElementsByClassName("amd");
     var nArray =  className[0].getElementsByClassName("nvidia");
+    visible();
     if(card==='amd'){
-        visible();
+        
         for(let i = 0;i<nArray.length;i++){
             nArray[i].style.display="none";
         }
     
     }else{
-        visible();
+        
         for(let i = 0;i<amdArray.length;i++){
             amdArray[i].style.display="none";
         }
     } 
         
+}
+
+function sort(highLow){
+    return 0;
 }

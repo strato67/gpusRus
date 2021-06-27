@@ -13,9 +13,11 @@ include 'header.php';
 <body>
 <div class = "button-container">
 
-    <button class="btn active btn-outline-primary" onclick="shopFilter('all')">All Products</button>
-    <button class="btn btn-outline-primary" onclick="shopFilter('AMD')">AMD</button>
-    <button class="btn btn-outline-primary" onclick="shopFilter('NVIDIA')">NVIDIA</button>
+    <button class="btn btn-outline-primary" onclick="shopFilter('all')">All Products</button>
+    <button class="btn btn-outline-primary" onclick="shopFilter('all')">Sort by Highest</button>
+    <button class="btn btn-outline-primary" onclick="shopFilter('all')">Sort by Lowest</button>
+    <button class="btn btn-outline-primary" onclick="shopFilter('amd')">AMD</button>
+    <button class="btn btn-outline-primary" onclick="shopFilter('nvidia')">NVIDIA</button>
 
 </div>
 
