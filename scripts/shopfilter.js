@@ -4,7 +4,10 @@ function shopFilter(selection){
     if(selection==='all'){
         visible();
                 
-    }else{
+    }else if(selection==='hi'||selection==='low'){
+        sort(selection);
+    }
+    else{
         cardSelect(selection);
     }
 }
@@ -42,6 +45,3 @@ function cardSelect(card){
         
 }
 
-function sort(highLow){
-    return 0;
-}

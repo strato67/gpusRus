@@ -7,15 +7,13 @@ include 'header.php';
 <html>
 <head>
 <link rel="stylesheet" href="styles/shopStyle.css">
-<script src="scripts/shopfilters.js"></script>
+<script src="scripts/shopfilter.js"></script>
 </head>
 
 <body>
 <div class = "button-container">
 
     <button class="btn btn-outline-primary" onclick="shopFilter('all')">All Products</button>
-    <button class="btn btn-outline-primary" onclick="shopFilter('all')">Sort by Highest</button>
-    <button class="btn btn-outline-primary" onclick="shopFilter('all')">Sort by Lowest</button>
     <button class="btn btn-outline-primary" onclick="shopFilter('amd')">AMD</button>
     <button class="btn btn-outline-primary" onclick="shopFilter('nvidia')">NVIDIA</button>
 
@@ -30,7 +28,7 @@ include 'header.php';
         <div class="card-body">
         <h5 class="card-title">Radeon 6900 XT</h5>
         <p class="card-text">Powered by RDNA 2</p>
-        <p class="card-text">$999</p>
+        <p class="card-text price">$999</p>
         <a href="#" class="btn btn-primary">Buy Now</a>
         </div>
     </div>
@@ -42,7 +40,7 @@ include 'header.php';
         <div class="card-body">
         <h5 class="card-title">Radeon RX Vega 56</h5>
         <p class="card-text">For extreme gaming</p>
-        <p class="card-text">$1499</p>
+        <p class="card-text price">$1499</p>
         <a href="#" class="btn btn-primary">Buy Now</a>
         </div>
 
@@ -53,7 +51,7 @@ include 'header.php';
         <div class="card-body">
         <h5 class="card-title">RX 580</h5>
         <p class="card-text">Great performance for a lower price</p>
-        <p class="card-text">$599</p>
+        <p class="card-text price">$599</p>
         <a href="#" class="btn btn-primary">Buy Now</a>
         </div>
     </div>
@@ -63,7 +61,7 @@ include 'header.php';
         <div class="card-body">
         <h5 class="card-title">RTX 3090</h5>
         <p class="card-text">NVIDIA's top of the line card</p>
-        <p class="card-text">$1999</p>
+        <p class="card-text price">$1999</p>
         <a href="#" class="btn btn-primary">Buy Now</a>
         </div>
 
@@ -74,7 +72,7 @@ include 'header.php';
         <div class="card-body">
         <h5 class="card-title">RTX 2060</h5>
         <p class="card-text">Enter the world of RTX</p>
-        <p class="card-text">$999</p>
+        <p class="card-text price">$999</p>
         <a href="#" class="btn btn-primary">Buy Now</a>
         </div>
 
@@ -85,7 +83,7 @@ include 'header.php';
         <div class="card-body">
         <h5 class="card-title">GTX 1660 Ti</h5>
         <p class="card-text">Rule the game</p>
-        <p class="card-text">$899</p>
+        <p class="card-text price">$899</p>
         <a href="#" class="btn btn-primary">Buy Now</a>
         </div>
 
@@ -97,7 +95,7 @@ include 'header.php';
         <div class="card-body">
         <h5 class="card-title">RTX 3070</h5>
         <p class="card-text">The ultimate play</p>
-        <p class="card-text">$1299</p>
+        <p class="card-text price">$1299</p>
         <a href="#" class="btn btn-primary">Buy Now</a>
         </div>
 
@@ -108,7 +106,7 @@ include 'header.php';
         <div class="card-body">
         <h5 class="card-title">RTX 3080 OC White Edition</h5>
         <p class="card-text">Winter is coming</p>
-        <p class="card-text">$4999</p>
+        <p class="card-text price">$4999</p>
         <a href="#" class="btn btn-primary">Buy Now</a>
         </div>
 
@@ -119,7 +117,7 @@ include 'header.php';
         <div class="card-body">
         <h5 class="card-title">RX 5600 XT</h5>
         <p class="card-text">Built for 1080p gaming</p>
-        <p class="card-text">$999</p>
+        <p class="card-text price">$999</p>
         <a href="#" class="btn btn-primary">Buy Now</a>
         </div>
 

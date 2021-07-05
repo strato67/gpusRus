@@ -21,10 +21,11 @@
         <a class="nav-link" href="shop.php">Shop</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Pricing</a>
+        <a class="nav-link" href="login.php">Pricing</a>
       </li>
     </ul>
-    <button class="btn btn-outline-primary my-2 my-sm-0" type="button">Login / Sign Up</button>
+    <button class="btn btn-outline-primary my-2 my-sm-0" type="button" onclick="location.href='signup.php'">Sign Up</button>
+    <button class="btn btn-outline-primary my-2 my-sm-0" type="button" onclick="location.href='login.php'">Login</button>
   </div>
 </nav>
 
