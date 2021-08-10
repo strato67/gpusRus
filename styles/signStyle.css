@@ -1,0 +1,65 @@
+.signupForm{
+    margin: auto;
+    text-align: center;
+    top: 50%;
+    position: relative;
+    transform: translateY(-50%);
+    
+    
+}
+body{
+    background-color: ghostwhite;
+}
+form{
+    text-align: center;
+    
+    
+}
+.container {
+    padding-top: 2%;
+    display: grid;
+    grid-template-columns: repeat(2, 30%);
+    grid-template-rows: repeat(5, 10%);
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    justify-content: center;
+    width: 100%;
+    height: 70%;
+  }
+  
+  .email { grid-area: 1 / 1 / 2 / 3; }
+  
+  .password { grid-area: 2 / 1 / 3 / 3; }
+  
+  .first-name { grid-area: 3 / 1 / 4 / 2;
+    justify-self: end; 
+    margin-right: 15%;
+    
+}
+  
+  .last-name { grid-area: 3 / 2 / 4 / 3; 
+    justify-self: start; 
+    margin-left: 15%;
+}
+  
+  .address { grid-area: 4 / 1 / 5 / 2;
+    justify-self: end; 
+    margin-right: 15%;
+}
+  
+  .phone-number { grid-area: 4 / 2 / 5 / 3; 
+    justify-self: start; 
+    margin-left: 15%;
+}
+  
+  .submit { grid-area: 5 / 1 / 6 / 3; }
+  
+  input[type=email]{
+      width: 70%;
+  }
+  input[type=password]{
+    width: 70%;
+}
+input[type=submit]{
+    width: 70%;
+}
