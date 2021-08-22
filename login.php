@@ -4,12 +4,16 @@ include 'header.php';
 
 ?>
 <html>
+<head>
+<link rel="stylesheet" href="styles/loginStyle.css">
+
+</head>
 
 <body>
 
 <div class="loginForm">
 <h1>Login</h1>
-<form action="" method="post">
+<form action="includes/login.inc.php" method="post">
 
 <div class="container">
   <div class="email">

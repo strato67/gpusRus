@@ -6,7 +6,7 @@ include 'header.php';
 
 <html>
 <head>
-<link rel="stylesheet" href="styles/shopStyle.css">
+<link rel="stylesheet" href="styles/shopStyles.css">
 <script src="scripts/shopfilter.js"></script>
 </head>
 

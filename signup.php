@@ -14,7 +14,7 @@ include 'header.php';
 
 <div class="signupForm">
 <h1>Sign Up</h1>
-<form action="" method="post">
+<form action="includes/signup.inc.php" method="post">
 
 <div class="container">
   <div class="email">
