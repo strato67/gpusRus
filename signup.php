@@ -6,7 +6,7 @@ include 'header.php';
 
 <html>
 <head>
-<link rel="stylesheet" href="styles/signStyle.css">
+<link rel="stylesheet" href="styles/signUpStyle.css">
 
 </head>
 
@@ -22,6 +22,9 @@ include 'header.php';
   </div>
   <div class="password">
   <input type="password" name="pass" id="pass" placeholder="Password" require>
+  </div>
+  <div class="repeat">
+  <input type="password" name="passrepeat" id="passrepeat" placeholder="Retype Password" require>
   </div>
   <div class="first-name">
   <input type="text" id="fname" name="fname" placeholder="First Name" required> 
